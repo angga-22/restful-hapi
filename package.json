@@ -1,0 +1,25 @@
+{
+  "name": "restful-hapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "angga saputra",
+  "keywords": [
+    "hapi",
+    "restful"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./modules/server.js",
+    "lint": "eslint ./modules"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.19"
+  }
+}
